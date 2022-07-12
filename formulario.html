@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="short cut">
+</head>
+
+<body style="background-image: linear-gradient(45deg, #7E5109 0%, #fff 100%);">
+        <form action="atividades.html">
+            <input class="custom-btn btn-3" type="submit" value="VOLTAR" />
+        </form>
+
+        <div class="conteiner">
+
+        <h1>Formulario </h1>
+        <p>Os diferentes tipos de formulários que você insere em seu documento HTML são apresentados com um formato e
+            cores padrão, que nem sempre estão de acordo com o projeto visual da sua página.
+
+            Com uso de CSS você pode alterar a apresentação dos diferentes objetos de formulário.
+
+            Neste tutorial mostrarei as regras CSS, básicas que permitem o controle sobre a apresentação dos
+            formulários.
+
+            As tags HTML para formulários abordadas são as listadas abaixo:</p>
+        <ul>
+            <li>input;</li>
+            <li>select;</li>
+            <li>textarea;</li>
+            <li>form</li>    
+        </ul>
+        
+            <span>Formulario simples: </span><br>
+        <form style="margin: 50px;">
+                <label>Nome: </label><input type="text"><br>
+                <label>Email:</label><input type="email"><br>
+                <label>Mensagem:</label><textarea cols="20" rows="4"></textarea><br>
+                <input type="submit" value="Enviar">
+        </form>
+
+        <h2>Formulario 2: </h2>
+        <span>Esse formulario ser editado no css: </span>
+        <form class="form" action="/pagina-processa-dados-do-form" method="post">
+            <fieldset>
+            <div>
+                <label class="label" for="name">Nome:</label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label class="label" for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <label class="label" for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar sua mensagem</button>
+            </div>
+        </fieldset>
+        </form>
+        <h2>Formulario 3: </h2>
+        <form action="calcular.php" method="post">
+            <h1>Calcular pedido</h1>
+            <label for="">Produto: </label>
+            <select name="producto" id="">
+              <option value="Arroz">Arroz</option>
+              <option value="Leche">feijao</option>
+              <option value="Azúcar">maracuja</option>
+              <option value="Yogurt">maça</option>
+            </select>
+            <label for="">Preciso: </label>
+            <input type="text" name="precio">
+            <label for="">Quantidade: </label>
+            <input type="text" name="cantidad">
+            <input type="submit" value="Calcular">
+          </form>
+    </div>
+
+    
+</body>
+</html>

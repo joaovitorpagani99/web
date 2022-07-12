@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>One Piece</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="shortcut icon" href="imagens/css.jpg" >
+</head>
+
+<body style="background: url(imagens/css.jpg) no-repeat center fixed; "> 
+	<form action="atividades.html">
+		<input class="custom-btn btn-3" type="submit" value="VOLTAR" />
+	</form>
+
+	<div class="conteiner">
+		<h1>Propriedados do Css</h1>
+		<h3>Resumo das principais propriedades CSS</h3>
+		<p>A linguagem utilizada atualmente para definir o layout dos documentos HTML é a CSS, uma abreviação para o termo em inglês Cascading Style Sheet que, traduzido para o português, ficou como folhas de estilo em cascata.
+		Em meus estudos e pesquisa sobre desenvolvimento web, a definição mais precisa que encontrei no site da W3C (World Wide Web Consortium)  para folhas de estilo foi:</p>
+		<p>Folha de estilo em cascata é um mecanismo simples para adicionar estilos (por exemplo: fontes, cores, espaçamentos, etc) aos documentos web.</p>
+	
+		<p><b>font-family: </b>Define a família da fonte utilizada. Exemplos:</p>
+			<ul>
+				<li>font-family: Arial, Verdana, Geneva, sans-serif;</li>
+				<li>font-family: Georgia, "Times New Roman", Times, serif;</li>
+			</ul>
+	
+		<p><b>font-style: </b> Define a propriedades de estilos que podem ser: normal, italic ou oblique. Exemplos:</p>
+	
+			<ul>
+				<li>font-style: italic;</li>
+				<li>font-style: normal;</li>
+			</ul>
+	
+		<p><b>font-weight :</b> Define a propriedade de intensidade de uma fonte na sequência de valores de ‘100’ a ‘900’, cada número indica uma fonte mais intensa (escura) que o valor anterior. Exemplos:</p>
+			<ul>
+				<li>font-weight: normal;  (ou valores de 100 a 500)</li>
+				<li>font-weight: bold;  (ou valores de 600 a 900)</li>
+			</ul>
+	
+		<p><b>font-size: </b>Define o tamanho da fonte. Exemplo:</p>
+			<ul>
+				<li>font-size: 12pt;</li>
+			</ul>
+	
+		<p><b>letter-spacing: </b>Controla o espaçamento entre as letras de um texto. Exemplo:</p>
+			<ul>
+				<li>letter-spacing: 5px;</li>
+			</ul>
+	
+		<p><b>word-spacing: </b> Controla o espaçamento entre as palavras de um texto. Exemplo:</p>
+			<ul>
+				<li>word-spacing: 10px;</li>
+			</ul>
+	
+		<p><b>line-height:</b>Controla a altura entre as linhas do texto de um paragrafo. Exemplo:</p>
+			<ul>
+				<li>line-height: 25px;</li>
+			</ul>
+	
+		<p><b>text-align:</b>Controla o posicionamento horizontal do conteúdo de um elemento. Os valores possíveis são: left, right, center e justify. Exemplo:</p>
+			<ul>
+				<li>text-align: center;</li>
+			</ul>
+	
+		<p><b>text-decoration:</b>Define um efeito decorativo no texto. Podendo entre eles ser: none (sem decoração); underline (sublinhado); line-through(linha cortando o texto); e blink (efeito piscante). Exemplo:</p>
+			<ul>
+				<li>text-decoration: underline;</li>
+			</ul>
+	
+		<p><b>text-transform: </b>Controla os efeitos de capitalização do texto. Com ela, podemos definir a caixa das letras (minúsculas e maiusculas). Os valores possíveis são:</p>
+			<ol>
+				<li>capitalize – transforma o primeiro caracter de cada palavra em maiúscula</li>
+				<li>uppercase – transforma todas as letras de todas as palavras em maiúsculas</li>
+				<li>lowercase – transforma todas as letras de todas as palavras em minúsculas</li>
+				<li>none – cancela algum valor que tenha sido herdado</li>
+				<ul>
+					<li>text-transform: uppercase;</li>
+				</ul>
+			</ol>
+	
+		<p><b>text-indent:</b>Define o tamanho da endentação para a primeira linha do texto contida em um bloco, ou seja, o deslocamento para a direita de um paragrafo. Exemplo:</p>	
+			<ul>
+				<li>text-indent: 20px;</li>
+			</ul>
+	
+		<p><b>color:</b> Define a cor do texto de um texto. Exemplos:</p>
+			<ul>
+				<li>color: red;</li>
+				<li>color: rgb(255,0,0);</li>
+				<li>color: #FF0000;</li>
+			</ul>
+	
+		<p><b>font: </b> Propriedade para definir em um único local vários estilos para a fonte. A sintaxe geral para font: [style] [variant] [weight] [size] [/line-height] [family]. Exemplo:</p>
+			<ul>
+				<li>font: normal small-caps bold 14px "Comic Sans MS", sans-serif;</li>
+			</ul>
+			<p>Nota: Os valores size e family são obrigatórios. Os demais são facultativos (se você os omitir será adotado o valor default ou herdado do elemento pai).</p>
+	
+		<p><b>width:</b>Define o comprimento (largura) de um elemento. Exemplo:</p>
+			<ul>
+				<li>width: 100px;</li>
+			</ul>
+	
+		<p><b>height:</b>Define a altura de um elemento. Exemplo:</p>
+			<ul>
+				<li>height: 50px;</li>
+			</ul>
+		<p><b>border: </b>Define bordas para um elemento. Exemplo:</p>
+			<ul>
+				<li>border:1px solid #CCC;</li>
+				<li>border-bottom:5px solid #97B2B9;</li>
+			</ul>
+	
+		<p><b>background:</b>Define as propriedades relacionadas ao fundo de exibição. Exemplo:</p>
+			<ul>
+				<li>background:url("images/fundo-topo.png") no-repeat;</li>
+			</ul>
+		<p><b>margin:</b> Controla as margens de um elementos. Se forem indicados quatro valores, eles dizem respeito, respectivamente, às margens superior, direita, inferior e esquerda. Se for fornecido apenas um valor, ele é aplicado às quatro margens.</p>
+			<ul>
+				<li>margin: 15px;</li>
+				<li>margin: 10px 1px 5px 20px;</li>
+			</ul>
+		<p>A última atribuição do exemplo acima é equivalente a: </p>
+		<ul>
+			<li>margin-top: 10px;</li>
+			<li>margin-right: 1px;</li>
+			<li>margin-bottom: 5px;</li>
+			<li>margin-left: 20px;</li>
+		</ul>
+	
+		<p><b>padding: </b> Controla os espaçamentos de um elementos. Se forem indicados quatro valores, eles dizem respeito, respectivamente, aos espaçamentos superior, direito, inferior e esquerdo. Se for fornecido apenas um valor, ele é aplicado aos quatro espaçamentos.</p>
+			<ul>
+				<li>padding: 5px;</li>
+				<li>padding: 10px 5px 5px 10px;</li>
+			</ul>
+	
+		<p><b>float: </b>Esta regra faz com que o box seja retirado de sua posição  no fluxo do documento e flutuado para a direita ou esquerda. O espaço original ocupado pelo box não será deixado livre, mas preenchido pelo elemento que segue no fluxo do documento. Exemplo:</p>
+			<ul>
+				<li>float: left;</li>
+				<li>float: right;</li>
+			</ul>
+		<a href ="#rodape" >Topo</a>
+
+	</div>
+
+</body>
+
+</html>

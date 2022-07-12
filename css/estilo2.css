@@ -1,0 +1,21 @@
+img {
+    filter: saturate(0.2);
+  }
+   
+  figure {
+    filter: contrast(1.8) brightness(1.1) saturate(1.5);
+  }
+   
+  figure:before {
+    z-index: 2;
+    mix-blend-mode: multiply;
+    box-shadow: 0 0 100px rgba(0,0,0,0.5) inset;
+    background: rgba(125, 100, 0, 0.3);
+  }
+   
+  figure:after {
+    z-index: 3;
+    mix-blend-mode: hard-light;
+    box-shadow: 0 0 500px rgba(0,0,0,0.6) inset;
+    background: rgba(198, 155, 0, 0.3);
+  }
